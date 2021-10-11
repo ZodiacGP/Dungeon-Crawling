@@ -190,7 +190,7 @@ public class IO {
 	}
 
 	private static char[] inputDirection() {
-		return new Scanner(System.in).next().trim().toLowerCase().toCharArray();
+		return new Scanner(System.in).nextLine().trim().toLowerCase().toCharArray();
 	}
 
 	private static Room checkInput(char[] input, Room position) {
@@ -219,5 +219,4 @@ public class IO {
 		}
 		return position;
 	}
-
 }

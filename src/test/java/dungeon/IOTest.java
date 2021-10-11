@@ -11,7 +11,7 @@ class IOTest {
 
 	@Test
 	public void testReadFileMethod() {
-		assertEquals(Collections.emptyMap(), IO.readFile("imaginable.txt"));
+		assertEquals(Collections.emptyMap(), IO.readFile("imaginary.txt"));
 	}
 
 	@Test

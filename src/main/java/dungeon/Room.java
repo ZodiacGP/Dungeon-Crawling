@@ -9,8 +9,8 @@ import java.util.Objects;
 @Setter
 public class Room {
     private String name;
-    private Room s, w, e, n;
-    private int row, col; // relative position on the console output to the first position
+    private Room n, s, e, w;
+    private int row, col;
 
     public Room(String name) {this.name = name;}
 
